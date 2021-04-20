@@ -1,0 +1,35 @@
+@media print {
+  .navigator {
+    display: none;
+  }
+  .page1 {
+    background-color: white;
+  }
+  .page1 .wrapper .content .avatar {
+    filter: grayscale(100%);
+
+    border: 3px solid black;
+  }
+  .page1 .wrapper .socials {
+    display: none;
+  }
+
+  .page2 .wrapper .title {
+    color: black;
+    font-size: 24px;
+  }
+  .page2 .wrapper .item {
+    border: 1px solid black;
+    filter: grayscale(100%);
+  }
+  .page3 .wrapper {
+    height: auto;
+    min-height: auto;
+  }
+  .page3 .wrapper p {
+    text-align: justify;
+    color: black;
+    font-size: 2rem;
+    margin: 20px;
+  }
+}
